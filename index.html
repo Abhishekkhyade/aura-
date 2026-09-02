@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instaframe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Instaframe home">instaframe<span>•</span></a>
+    <label class="search" aria-label="Search">
+      <span>⌕</span>
+      <input type="search" placeholder="Search">
+    </label>
+    <nav class="top-actions" aria-label="Primary navigation">
+      <a class="icon-link active" href="#" aria-label="Home">⌂</a>
+      <a class="icon-link" href="#" aria-label="Messages">✉</a>
+      <a class="icon-link" href="#" aria-label="Explore">⌕</a>
+      <a class="icon-link" href="#" aria-label="Activity">♡</a>
+      <a class="mini-avatar" href="#" aria-label="Your profile">YU</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <section class="feed" aria-label="Feed">
+      <div class="stories-panel">
+        <div class="section-heading">
+          <h2>Stories</h2>
+          <a href="#">Watch all</a>
+        </div>
+        <div class="stories">
+          <a class="story add-story" href="#">
+            <span class="story-ring"><span class="story-avatar plain">+</span></span>
+            <span>Your story</span>
+          </a>
+          <a class="story" href="#"><span class="story-ring coral"><span class="story-avatar">LM</span></span><span>lena.miles</span></a>
+          <a class="story" href="#"><span class="story-ring lime"><span class="story-avatar">AK</span></span><span>ari.kim</span></a>
+          <a class="story" href="#"><span class="story-ring violet"><span class="story-avatar">NS</span></span><span>noah.studio</span></a>
+          <a class="story" href="#"><span class="story-ring orange"><span class="story-avatar">MJ</span></span><span>mika.jones</span></a>
+          <a class="story" href="#"><span class="story-ring blue"><span class="story-avatar">TA</span></span><span>thea.alex</span></a>
+        </div>
+      </div>
+
+      <article class="post">
+        <header class="post-header">
+          <div class="user-lockup"><span class="avatar coral">LM</span><div><strong>lena.miles</strong><small>Brooklyn, NY</small></div></div>
+          <button class="more" aria-label="More options">•••</button>
+        </header>
+        <div class="photo photo-one"><span class="photo-label">slow mornings<br><em>06:42 am</em></span><span class="photo-shape shape-one"></span></div>
+        <div class="post-body">
+          <div class="post-actions"><button aria-label="Like">♡</button><button aria-label="Comment">◌</button><button aria-label="Share">↗</button><button class="bookmark" aria-label="Save">⌑</button></div>
+          <strong>1,248 likes</strong>
+          <p><b>lena.miles</b> A little light, a little quiet, a lot of gratitude.</p>
+          <a class="comments" href="#">View all 32 comments</a>
+          <small class="time">2 HOURS AGO</small>
+        </div>
+      </article>
+
+      <article class="post">
+        <header class="post-header">
+          <div class="user-lockup"><span class="avatar violet">NS</span><div><strong>noah.studio</strong><small>Somewhere sunny</small></div></div>
+          <button class="more" aria-label="More options">•••</button>
+        </header>
+        <div class="photo photo-two"><div class="gallery-copy"><small>THE WEEKEND EDIT</small><strong>Find your<br>outside.</strong><span>noah studio / 2024</span></div></div>
+        <div class="post-body"><div class="post-actions"><button aria-label="Like">♡</button><button aria-label="Comment">◌</button><button aria-label="Share">↗</button><button class="bookmark" aria-label="Save">⌑</button></div><strong>864 likes</strong><p><b>noah.studio</b> New textures, old rituals.</p><a class="comments" href="#">View all 18 comments</a><small class="time">5 HOURS AGO</small></div>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <div class="profile-row"><span class="avatar profile-avatar">YU</span><div><strong>you.daily</strong><small>Your daily visual diary</small></div><a href="#">Switch</a></div>
+      <div class="suggestion-heading"><strong>Suggestions for you</strong><a href="#">See all</a></div>
+      <div class="suggestion"><span class="avatar lime">AK</span><div><strong>ari.kim</strong><small>Followed by lena.miles</small></div><a href="#">Follow</a></div>
+      <div class="suggestion"><span class="avatar orange">MJ</span><div><strong>mika.jones</strong><small>New to Instaframe</small></div><a href="#">Follow</a></div>
+      <div class="suggestion"><span class="avatar blue">TA</span><div><strong>thea.alex</strong><small>Followed by ari.kim</small></div><a href="#">Follow</a></div>
+      <p class="footer-note">About · Help · Press · API · Jobs · Privacy<br>Terms · Locations · Language<br><br>© 2024 INSTAFRAME</p>
+    </aside>
+  </main>
+
+  <footer class="mobile-nav"><a class="active" href="#" aria-label="Home">⌂</a><a href="#" aria-label="Explore">⌕</a><a href="#" aria-label="Create">⊕</a><a href="#" aria-label="Activity">♡</a><a href="#" aria-label="Profile">YU</a></footer>
+</body>
+</html>
